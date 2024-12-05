@@ -22,6 +22,7 @@ mod frame;
 
 pub use codec::rtu;
 pub use codec::tcp;
+pub use codec::Encode;
 pub use error::*;
 pub use frame::*;
 
